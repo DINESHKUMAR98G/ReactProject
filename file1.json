@@ -1,0 +1,62 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "books": [
+    {
+      "id": 10001,
+      "title": "Java Programming",
+      "author": " James Gosling",
+      "available_copies": 0,
+      "issued_to": [
+        "ru",
+        "ru",
+        "ru",
+        "dinesh"
+      ],
+      "status": "Available"
+    },
+    {
+      "id": 10010,
+      "title": "Python",
+      "author": " Guido van Rossum",
+      "available_copies": 2,
+      "issued_to": [
+        "ru",
+        "ru"
+      ],
+      "status": "Available"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "rithuma",
+      "password": "divya"
+    },
+    {
+      "id": "167",
+      "name": "Nithya",
+      "jobrole": "nithya"
+    },
+    {
+      "id": "2020",
+      "name": "dinesh",
+      "jobrole": "dinesh"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
